@@ -1,0 +1,20 @@
+:root{
+    --primary-color: #F99803;
+    --secundary-color: #FBB035;
+    --tertiary-color: #F1A323;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: lightblue;
+}
+main{
+    background-color: lightgreen;
+    flex-grow: 1;
+}
+footer{
+    background-color: lightpink;
+}
