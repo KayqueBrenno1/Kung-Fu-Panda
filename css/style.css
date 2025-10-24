@@ -4,17 +4,89 @@
     --tertiary-color: #F1A323;
 }
 body{
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
 header{
-    background-color: lightblue;
+    display: flex;
+    flex-direction: column; 
 }
 main{
-    background-color: lightgreen;
-    flex-grow: 1;
+
 }
 footer{
-    background-color: lightpink;
+
 }
+.header-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-up{
+    display: flex;
+    align-items: center;
+    
+}
+.header-end{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.botaoHeader{
+    display: flex;
+    gap: 80px;
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 20px;
+    color: var(--tertiary-color);
+}
+.home{
+    color: white;
+    text-decoration: underline;
+}
+.header-center{
+    margin-top: 60px;
+}
+.pesquisar{
+    display: flex;
+    gap: 70px;
+    border-bottom: 2px solid white;
+}
+.search{
+    font-size: 18px;
+    margin-top: 55px;
+}
+.lupa{
+    width: 20px;
+    height: 20px;
+    margin-top: 55px;
+}
+.login{
+    display: flex;
+    font-size: 18px;
+    margin-top: 60px;
+}
+.registrar p{
+    display: flex;
+    margin-top: 60px;
+    color: white;
+    padding: 12px 30px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 11px;
+    margin-right: 80px;
+}
+p{
+    font-family: "Lexend Exa", sans-serif;
+    color: var(--tertiary-color);
+
+}
+.cenario{
+    display: flex;
+    z-index: -999;
+    background-size: cover;
+    height: 53vw;
+    width: 100vw;
+    position: absolute;
+}
+
